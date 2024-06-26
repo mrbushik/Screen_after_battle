@@ -1,0 +1,176 @@
+body {
+  background-color: #7e7171;
+}
+
+.page-container {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.page-container__wrapper {
+  background-image: url("https://res.cloudinary.com/drfjcq9hg/image/upload/v1719405088/bushik123/ucqxyl8xn3w9ci8ufsh0.png");
+  background-size: contain;
+  background-color: #7e7171;
+  width: 100%;
+  height: 100%;
+}
+
+.team-statistics__wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.loading-data {
+  position: absolute;
+  font-weight: 700;
+  font-family: "Anton", sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+}
+
+svg {
+  color: #ffffff;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+table {
+  width: 40%;
+  border-collapse: collapse;
+}
+.table-header__winners,
+.table-header__losers {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Anton", sans-serif;
+  font-style: normal;
+  letter-spacing: 2px;
+
+  svg {
+    margin: 0 5px;
+  }
+}
+
+thead {
+  height: 50px;
+}
+
+.left-team__table {
+  background: #13171d;
+  .table-header__status,
+  .table-header__score {
+    border: none;
+  }
+}
+.right-team__table {
+  background: #3c1d18;
+  .table-header__nickname,
+  .table-header__status,
+  .table-header__score {
+    border: none;
+  }
+}
+
+td {
+  height: 150px;
+}
+.left-team__cell {
+  background: #20304a;
+  border-bottom: 3px solid #0a0a0a;
+}
+
+.right-team__cell {
+  background: #502826;
+  border-bottom: 3px solid #210905;
+
+  td {
+    height: 100px;
+  }
+  tr {
+    height: 100px;
+  }
+}
+
+.table-header__nickname,
+.table-header__status,
+.table-header__score {
+  border: none;
+}
+
+.player-alive,
+.player-score {
+  text-align: center;
+}
+
+.player-nick {
+  display: flex;
+  align-items: center;
+  position: relative;
+  svg {
+    margin-left: 5px;
+    margin-bottom: -4px;
+  }
+}
+
+.player-nick,
+.player-alive,
+.player-score,
+.player-friend {
+  height: 100px;
+}
+
+.cell-dead {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.player-tooltip__container {
+  background: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  top: 22%;
+  left: 35px;
+  opacity: 0.9;
+  width: 110px;
+  p {
+    color: #13171d;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px 0;
+  }
+}
+
+.player-nick__title {
+  margin: 0 0 0 5px;
+}
+
+.player-friend {
+  text-align: center;
+  width: 90px;
+}
+
+.separator-container {
+  background: #090909;
+  width: 10px;
+  position: relative;
+  margin-top: 30px;
+}
+.separator-text__wrapper {
+  display: flex;
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.separator-text {
+  font-family: "Anton", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 0;
+  color: #ff0101;
+}
